@@ -6,8 +6,8 @@ export default function ContactPage() {
       <header className="border-b border-gray-100 dark:border-gray-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
          <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-  <Link href="/">Accessibility Analyzer</Link>
-</div>
+         <Link href="/">Accessibility Analyzer</Link>
+         </div>
           <nav className="flex items-center space-x-8">
   <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
     Home

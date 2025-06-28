@@ -1,26 +1,27 @@
+import Link from 'next/link'
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Header */}
       <header className="border-b border-gray-100 dark:border-gray-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-            <a href="/">Accessibility Analyzer</a>
-          </div>
+         <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+  <Link href="/">Accessibility Analyzer</Link>
+</div>
           <nav className="flex items-center space-x-8">
-            <a href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Home
-            </a>
-            <a href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              About
-            </a>
-            <a href="/help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Help
-            </a>
-            <a href="/contact" className="text-blue-600 dark:text-blue-400 font-semibold">
-              Contact
-            </a>
-          </nav>
+  <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Home
+  </Link>
+  <Link href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    About
+  </Link>
+  <Link href="/help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Help
+  </Link>
+  <Link href="/contact" className="text-blue-600 dark:text-blue-400 font-semibold">
+    Contact
+  </Link>
+</nav>
         </div>
       </header>
 
@@ -119,8 +120,7 @@ export default function ContactPage() {
                     🐛 Bug Reports
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Found a bug? Help us improve by reporting it.
-                  </p>
+                    {'Found a bug? Help us improve by reporting it.'}                  </p>
                   <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Report an issue →
                   </a>
@@ -131,7 +131,7 @@ export default function ContactPage() {
                     💡 Feature Requests
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Have an idea for a new feature? We'd love to hear it!
+                    {'Have an idea for a new feature? We\'d love to hear it!'}
                   </p>
                   <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Suggest a feature →

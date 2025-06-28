@@ -1,26 +1,28 @@
+import Link from 'next/link'
+
 export default function HelpPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Header */}
       <header className="border-b border-gray-100 dark:border-gray-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-            <a href="/">Accessibility Analyzer</a>
-          </div>
-          <nav className="flex items-center space-x-8">
-            <a href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Home
-            </a>
-            <a href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              About
-            </a>
-            <a href="/help" className="text-blue-600 dark:text-blue-400 font-semibold">
-              Help
-            </a>
-            <a href="/contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Contact
-            </a>
-          </nav>
+         <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+  <Link href="/">Accessibility Analyzer</Link>
+</div>
+         <nav className="flex items-center space-x-8">
+  <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Home
+  </Link>
+  <Link href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    About
+  </Link>
+  <Link href="/help" className="text-blue-600 dark:text-blue-400 font-semibold">
+    Help
+  </Link>
+  <Link href="/contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Contact
+  </Link>
+</nav>
         </div>
       </header>
 
@@ -103,11 +105,11 @@ export default function HelpPage() {
                 Need More Help?
               </h2>
               <p className="text-gray-600 dark:text-gray-300">
-                If you have questions or need support, please visit our{' '}
-                <a href="/contact" className="text-blue-600 dark:text-blue-400 hover:underline">
-                  contact page
-                </a>{' '}
-                or refer to the{' '}
+                {'If you have questions or need support, please visit our'}{' '}
+<Link href="/contact" className="text-blue-600 dark:text-blue-400 hover:underline">
+  contact page
+</Link>{' '}
+{'or refer to the'}{' '}
                 <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
                   WCAG Quick Reference Guide
                 </a>.

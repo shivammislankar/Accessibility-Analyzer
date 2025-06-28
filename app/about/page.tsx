@@ -1,4 +1,4 @@
-
+import Link from 'next/link'
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
@@ -6,22 +6,22 @@ export default function AboutPage() {
       <header className="border-b border-gray-100 dark:border-gray-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-            <a href="/">Accessibility Analyzer</a>
-          </div>
-          <nav className="flex items-center space-x-8">
-            <a href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Home
-            </a>
-            <a href="/about" className="text-blue-600 dark:text-blue-400 font-semibold">
-              About
-            </a>
-            <a href="/help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Help
-            </a>
-            <a href="/contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-              Contact
-            </a>
-          </nav>
+  <Link href="/">Accessibility Analyzer</Link>
+</div>
+         <nav className="flex items-center space-x-8">
+  <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Home
+  </Link>
+  <Link href="/about" className="text-blue-600 dark:text-blue-400 font-semibold">
+    About
+  </Link>
+  <Link href="/help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Help
+  </Link>
+  <Link href="/contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+    Contact
+  </Link>
+</nav>
         </div>
       </header>
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              We believe that the internet should be accessible to everyone, regardless of their abilities. 
+              {'We believe that the internet should be accessible to everyone, regardless of their abilities.'} 
               Our accessibility analyzer helps developers and content creators identify and fix accessibility 
               issues to create more inclusive digital experiences.
             </p>

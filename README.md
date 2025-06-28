@@ -31,21 +31,20 @@ A simple and powerful web app that analyzes any webpage for accessibility issues
 
 ## 🏗️ Project Structure
 
+```
 Accessibility-Analyzer/
-├── client/ # Frontend - Next.js App
-│ ├── pages/
-│ ├── components/
-│ └── styles/
-├── server/ # Backend - Express API
-│ ├── routes/
-│ └── utils/
+├── client/                # Frontend - Next.js App
+│   ├── pages/
+│   ├── components/
+│   └── styles/
+├── server/                # Backend - Express API
+│   ├── routes/
+│   └── utils/
 ├── public/
 ├── .gitignore
 ├── package.json
 └── README.md
-
-yaml
-Copy code
+```
 
 ---
 
@@ -66,85 +65,80 @@ Copy code
 ```bash
 git clone https://github.com/shivammislankar/Accessibility-Analyzer.git
 cd Accessibility-Analyzer
-2. Install Dependencies
-Frontend (client)
-bash
-Copy code
+```
+
+### 2. Install Dependencies
+
+#### Frontend (client)
+```bash
 cd client
 npm install
-Backend (server)
-bash
-Copy code
+```
+
+#### Backend (server)
+```bash
 cd ../server
 npm install
-3. Run the Application
-Start Backend
-bash
-Copy code
-npm run dev
-Start Frontend
-In a separate terminal:
+```
 
-bash
-Copy code
+### 3. Run the Application
+
+#### Start Backend
+```bash
+npm run dev
+```
+
+#### Start Frontend
+In a separate terminal:
+```bash
 cd client
 npm run dev
-The frontend should be running at http://localhost:5173.
+```
 
-🔗 How It Works
-User enters a webpage URL on the frontend.
+The frontend should be running at `http://localhost:5173`.
 
-The frontend sends the URL to the Express backend.
+---
 
-The backend uses Pa11y to audit the given URL.
+## 🔗 How It Works
 
-Accessibility issues are returned as a JSON response.
+1. User enters a webpage URL on the frontend.
+2. The frontend sends the URL to the Express backend.
+3. The backend uses **Pa11y** to audit the given URL.
+4. Accessibility issues are returned as a JSON response.
+5. Frontend displays a readable and actionable report.
 
-Frontend displays a readable and actionable report.
+---
 
-📦 Dependencies
-next
+## 📦 Dependencies
 
-tailwindcss
+- `next`
+- `tailwindcss`
+- `express`
+- `cors`
+- `pa11y`
+- `axios`
 
-express
+---
 
-cors
+## 🤝 Contributing
 
-pa11y
-
-axios
-
-🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a Pull Request
 
-Create a new branch (git checkout -b feature-name)
+---
 
-Commit your changes (git commit -m 'Add new feature')
+## 📄 License
 
-Push to the branch (git push origin feature-name)
+This project is licensed under the [MIT License](LICENSE).
 
-Open a Pull Request
+---
 
-📄 License
-This project is licensed under the MIT License.
+## ✨ Author
 
-✨ Author
-Shivam Mislankar
-🔗 GitHub
-
-vbnet
-Copy code
-
-Let me know if you want to add badges (build passing, license, etc.) or deployment instructions (e.g., Vercel).
-
-
-
-
-
-
-
-
-Ask ChatGPT
+**Shivam Mislankar**  
+🔗 [GitHub](https://github.com/shivammislankar)

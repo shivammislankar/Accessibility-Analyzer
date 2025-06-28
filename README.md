@@ -4,18 +4,7 @@ A simple and powerful web app that analyzes any webpage for accessibility issues
 
 ---
 
-## 🌐 Live Demo
 
-> **Coming Soon**  
-*(You can host it using Vercel or Netlify and update this section.)*
-
----
-
-## 📸 Screenshots
-
-| Home Page | Results Page |
-|-----------|--------------|
-| ![Homepage](./screenshots/home.png) | ![Results](./screenshots/results.png) |
 
 ---
 

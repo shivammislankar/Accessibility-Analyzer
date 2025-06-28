@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
     
     // Check for missing alt text
     const imgMatches = html.match(/<img[^>]*>/gi) || []
-    imgMatches.forEach((img, index) => {
+    imgMatches.forEach((img) => {
       if (!img.includes('alt=')) {
         issues.push({
           type: 'error',

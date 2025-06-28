@@ -41,7 +41,7 @@ export default function HelpPage() {
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6 mb-6">
                 <ol className="text-gray-600 dark:text-gray-300 space-y-3">
                   <li><strong>1.</strong> Enter a website URL in the input field</li>
-                  <li><strong>2.</strong> Click the "Analyze" button</li>
+                  <li><strong>2.</strong> Click the {'"Analyze"'} button</li>
                   <li><strong>3.</strong> Wait for the analysis to complete</li>
                   <li><strong>4.</strong> Review the results and recommendations</li>
                 </ol>

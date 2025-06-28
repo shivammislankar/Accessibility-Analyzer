@@ -1,27 +1,28 @@
 import Link from 'next/link'
+
 export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Header */}
       <header className="border-b border-gray-100 dark:border-gray-800">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-         <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
-         <Link href="/">Accessibility Analyzer</Link>
-         </div>
+          <div className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+            <Link href="/">Accessibility Analyzer</Link>
+          </div>
           <nav className="flex items-center space-x-8">
-  <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-    Home
-  </Link>
-  <Link href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-    About
-  </Link>
-  <Link href="/help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
-    Help
-  </Link>
-  <Link href="/contact" className="text-blue-600 dark:text-blue-400 font-semibold">
-    Contact
-  </Link>
-</nav>
+            <Link href="/" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+              Home
+            </Link>
+            <Link href="/about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+              About
+            </Link>
+            <Link href="/help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+              Help
+            </Link>
+            <Link href="/contact" className="text-blue-600 dark:text-blue-400 font-semibold">
+              Contact
+            </Link>
+          </nav>
         </div>
       </header>
 
@@ -120,10 +121,11 @@ export default function ContactPage() {
                     🐛 Bug Reports
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    {'Found a bug? Help us improve by reporting it.'}                  </p>
-                  <link href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                    {'Found a bug? Help us improve by reporting it.'}
+                  </p>
+                  <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Report an issue →
-                  </link>
+                  </a>
                 </div>
 
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
@@ -133,9 +135,9 @@ export default function ContactPage() {
                   <p className="text-gray-600 dark:text-gray-300">
                     {'Have an idea for a new feature? We\'d love to hear it!'}
                   </p>
-                  <link href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                  <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Suggest a feature →
-                  </link>
+                  </a>
                 </div>
 
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
@@ -145,9 +147,9 @@ export default function ContactPage() {
                   <p className="text-gray-600 dark:text-gray-300">
                     Need help getting started? Check out our documentation.
                   </p>
-                  <link href="/help" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                  <Link href="/help" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     View help docs →
-                  </link>
+                  </Link>
                 </div>
               </div>
             </div>

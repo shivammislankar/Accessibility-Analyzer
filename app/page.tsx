@@ -60,13 +60,13 @@ export default function HomePage() {
     </div>
     <div className="flex items-center gap-4">
       <nav className="flex items-center space-x-8">
-        <a href="#" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+        <a href="\about" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
           About
         </a>
-        <a href="#" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+        <a href="\help" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
           Help
         </a>
-        <a href="#" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
+        <a href="\contact" className="text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-gray-100">
           Contact
         </a>
       </nav>

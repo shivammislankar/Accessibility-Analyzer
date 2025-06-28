@@ -110,9 +110,9 @@ export default function HelpPage() {
   contact page
 </Link>{' '}
 {'or refer to the'}{' '}
-                <a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
+                <link href="https://www.w3.org/WAI/WCAG21/quickref/" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline">
                   WCAG Quick Reference Guide
-                </a>.
+                </link>.
               </p>
             </section>
           </div>

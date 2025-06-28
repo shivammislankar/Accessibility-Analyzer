@@ -121,9 +121,9 @@ export default function ContactPage() {
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     {'Found a bug? Help us improve by reporting it.'}                  </p>
-                  <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                  <link href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Report an issue →
-                  </a>
+                  </link>
                 </div>
 
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
@@ -133,9 +133,9 @@ export default function ContactPage() {
                   <p className="text-gray-600 dark:text-gray-300">
                     {'Have an idea for a new feature? We\'d love to hear it!'}
                   </p>
-                  <a href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                  <link href="#" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     Suggest a feature →
-                  </a>
+                  </link>
                 </div>
 
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-6">
@@ -145,9 +145,9 @@ export default function ContactPage() {
                   <p className="text-gray-600 dark:text-gray-300">
                     Need help getting started? Check out our documentation.
                   </p>
-                  <a href="/help" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
+                  <link href="/help" className="text-blue-600 dark:text-blue-400 hover:underline text-sm">
                     View help docs →
-                  </a>
+                  </link>
                 </div>
               </div>
             </div>

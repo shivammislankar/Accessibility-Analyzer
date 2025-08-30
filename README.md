@@ -26,9 +26,6 @@ Accessibility-Analyzer/
 │   ├── pages/
 │   ├── components/
 │   └── styles/
-├── server/                # Backend - Express API
-│   ├── routes/
-│   └── utils/
 ├── public/
 ├── .gitignore
 ├── package.json
@@ -40,7 +37,6 @@ Accessibility-Analyzer/
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js, Tailwind CSS
-- **Backend**: Node.js, Express
 - **Accessibility Engine**: Pa11y
 - **Styling**: Tailwind CSS
 - **Package Manager**: npm
@@ -61,12 +57,6 @@ cd Accessibility-Analyzer
 #### Frontend (client)
 ```bash
 cd client
-npm install
-```
-
-#### Backend (server)
-```bash
-cd ../server
 npm install
 ```
 
